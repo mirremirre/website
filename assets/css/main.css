@@ -110,12 +110,12 @@ input, select, textarea {
 		-webkit-transition: color .2s ease-in-out;
 		-ms-transition: color .2s ease-in-out;
 		transition: color .2s ease-in-out;
-		color: #43B3E0;
+		color: #b83232 /*#43B3E0;*/
 		text-decoration: underline;
 	}
 
 		a:hover {
-			color: #43bff0 !important;
+			color: #b83232 !important; /*#43bff0 !important;*/
 		}
 
 		a img {
@@ -124,7 +124,7 @@ input, select, textarea {
 
 	b, strong {
 		font-weight: 600;
-		color: #3e3e3e;
+		color: #b83232 /*#3e3e3e;*/
 	}
 
 	i, em {
@@ -150,7 +150,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #3e3e3e;
+		color: #b83232 /*#3e3e3e;*/
 		margin: 0 0 0.75em 0;
 	}
 
@@ -194,7 +194,7 @@ input, select, textarea {
 	hr {
 		border: 0;
 		border-top: solid 1px #444;
-		border-top-color: rgba(0, 0, 0, 0.35);
+		border-top-color: rgba(255, 0, 0, 0.3); /*color changed for background box. Before: border-top-color: rgba(0, 0, 0, 0.35);*/
 		box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
 		height: 1px;
 		margin: 3em 0;
@@ -1912,7 +1912,7 @@ input, select, textarea {
 
 	.box {
 		background: #fff;
-		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+		box-shadow: inset 0px 0px 0px 1px rgba(250, 0, 0, 0.15), 0px 2px 3px 0px rgba(250, 0, 0, 0.1); /*Before: (0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);*/
 		text-align: center;
 		padding: 2em;
 	}
