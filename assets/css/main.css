@@ -110,7 +110,7 @@ input, select, textarea {
 		-webkit-transition: color .2s ease-in-out;
 		-ms-transition: color .2s ease-in-out;
 		transition: color .2s ease-in-out;
-		color: #b83232 /*#43B3E0;*/
+		color: #43B3E0; /* tried */
 		text-decoration: underline;
 	}
 
@@ -150,7 +150,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: 3e3e3e; /*tried */
+		color: 3e3e3e; /* tried */
 		margin: 0 0 0.75em 0;
 	}
 
@@ -2009,7 +2009,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style4 {
-			background-color: #f4f4f4; /*background-color: #303030;*/
+			background-color: #303030; /*candidate for bottom colors at contact me*/
 			color: #999;
 			text-shadow: -1px -1px 0px #181818;
 		}
@@ -2023,14 +2023,14 @@ input, select, textarea {
 			.wrapper.style4 form select,
 			.wrapper.style4 form textarea {
 				border: none;
-				background: #1501045; /*background: #282828;*/
+				background: #282828; /*candidate for bottom colors at contact me*/
 			}
 
 				.wrapper.style4 form input[type=text]:focus,
 				.wrapper.style4 form input[type=password]:focus,
 				.wrapper.style4 form select:focus,
 				.wrapper.style4 form textarea:focus {
-					background: #1501045; /*background: #252525;*/
+					background: #252525; /*candidate for bottom colors at contact me*/
 				}
 
 /* Nav */
