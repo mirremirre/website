@@ -1541,7 +1541,7 @@ input, select, textarea {
 		form input[type=password]:focus,
 		form select:focus,
 		form textarea:focus {
-			background: #fafafa;
+			background: #3C5A98  /* tried #fafafa */;
 			box-shadow: inset 0px 2px 5px 0px rgba(255, 0, 0, 0.05), 0px 1px 0px 0px rgba(255, 255, 255, 0.025), inset 0px 0px 2px 1px #43bff0; /*changed first rgba(0, 0, 0, 0.05)*/ 
 		}
 
@@ -1995,21 +1995,21 @@ input, select, textarea {
 
 		.wrapper.style1 {
 			background-image: none;
-			background-color: #fff;
+			background-color: #3C5A98  /* tried #fff */
 		}
 
 		.wrapper.style2 {
-			background-color: #fafafa  /* tried  */
+			background-color: #3C5A98  /* tried #fafafa */
 			text-shadow: 1px 1px 0px #fff;
 		}
 
 		.wrapper.style3 {
-			background-color: #f4f4f4 ; /* tried  */
+			background-color: #3C5A98  /* tried #f4f4f4 */
 			text-shadow: 1px 1px 0px #fff;
 		}
 
 		.wrapper.style4 {
-			background-color: #303030; /*candidate for bottom colors at contact me*/
+			background-color: #3C5A98  /* tried #303030 */
 			color: #999;
 			text-shadow: -1px -1px 0px #181818;
 		}
